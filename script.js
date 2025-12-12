@@ -34,7 +34,7 @@ toggleButton.setAttribute("data-action", "status-toggle"); // Sets an attribute 
 function highlightListItems() { // Function that contains searches for list elements and sets their background to blue
     const listItems = document.querySelectorAll('li');
     for (let i = 0; i < listItems.length; i++) {
-        listItems[i].style.backgroundColor = "lightblue";
+        listItems[i].style.color = "blue";
     }
 }
 
